@@ -77,7 +77,7 @@ export default function Links(){
 
             { showModal && (
                 <LinkItem
-                    closeModal={ () => setShowModal(false) }
+                    onClose={ () => setShowModal(false) }
                     content={data}
                 />
             )}
